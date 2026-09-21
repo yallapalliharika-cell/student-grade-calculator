@@ -1,0 +1,19 @@
+print("student grade calculator")
+english=80
+mathematics=90
+python=87
+physics=99
+chemistry=89
+total=english+mathematics+python+physics+chemistry
+average=(english+mathematics+python+physics+chemistry)/5
+if average>=90:
+  print("grade A")
+elif average>=85:
+  print("grade B")
+elif average>=55:
+  print("grade C")
+else:
+  print("fail")
+print("average=",average)
+print("total=",total)
+
